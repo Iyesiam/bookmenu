@@ -29,6 +29,14 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.page:nth-child(odd) {
+    z-index: 2;
+}
+
+.page:nth-child(even) {
+    z-index: 1;
+}
+
 .content {
     padding: 20px;
 }
